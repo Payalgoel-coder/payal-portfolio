@@ -7,15 +7,22 @@ const education = [
     title: "B.Tech — CSE (AI & Data Science)",
     place: "SISTec Gandhi Nagar, Bhopal",
     period: "2025 – Present",
-    score: "CGPA: 8.15",
+    score: "CGPA: 8.20",
     badge: "Current",
   },
   {
     icon: "📚",
-    title: "Class 12th",
-    place: "MAAPS, Delhi",
+    title: "Higher Secondary (PCM) - Class 12th",
+    place: "Maharaja Aggarsain Adarsh Public School, Delhi",
     period: "2024",
-    score: "Percentage: 93%",
+    score: "Score: 93%",
+  },
+  {
+    icon: "🏫",
+    title: "Secondary School - Class 10th",
+    place: "Maharaja Aggarsain Adarsh Public School, Delhi",
+    period: "2022",
+    score: "Score: 92%",
   },
 ];
 

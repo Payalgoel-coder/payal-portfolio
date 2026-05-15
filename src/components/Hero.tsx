@@ -68,7 +68,7 @@ export function Hero() {
           </motion.h2>
           <motion.p variants={item} className="mt-6 max-w-xl text-muted-foreground leading-relaxed">
             A passionate CSE–AI & DS student building real-world solutions with Python, data,
-            and logic. Currently pursuing B.Tech at SISTec Bhopal with a CGPA of 8.15.
+            and logic. Currently pursuing B.Tech at SISTec Bhopal with a CGPA of 8.20.
           </motion.p>
           <motion.div variants={item} className="mt-8 flex flex-wrap gap-3">
             <a
@@ -86,9 +86,9 @@ export function Hero() {
           </motion.div>
           <motion.div variants={item} className="mt-8 flex items-center gap-4">
             {[
-              { Icon: Linkedin, href: "https://linkedin.com/in/your-Payalgoel" },
+              { Icon: Linkedin, href: "https://linkedin.com/in/payalgoel" },
               { Icon: Github, href: "#" },
-              { Icon: Mail, href: "mailto:payalgoel2708@gmail.com" },
+              { Icon: Mail, href: "mailto:payalgoel2005@gmail.com" },
             ].map(({ Icon, href }, idx) => (
               <a
                 key={idx}

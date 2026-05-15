@@ -5,19 +5,27 @@ const tech = [
   { name: "Python", icon: "🐍" },
   { name: "C", icon: "⚙️" },
   { name: "C++", icon: "💠" },
-  { name: "Data Analysis", icon: "📊" },
-  { name: "APIs", icon: "🔌" },
-  { name: "Data Processing", icon: "🧮" },
-  { name: "Problem Solving", icon: "🧩" },
-  { name: "Git / GitHub", icon: "🌿" },
+  { name: "HTML/CSS", icon: "🌐" },
+  { name: "JavaScript", icon: "⚡" },
+  { name: "MySQL", icon: "🗄️" },
+  { name: "Dart", icon: "🎯" },
+  { name: "Power BI", icon: "📊" },
+  { name: "Pandas/NumPy", icon: "🧮" },
 ];
 
-const soft = ["Communication", "Teamwork", "Quick Learner", "Time Management"];
+const soft = [
+  "Problem-solving",
+  "Effective Communication",
+  "Team Collaboration",
+  "Adaptive learning mindset",
+  "Creative Thinking",
+];
 
 const bars = [
-  { name: "Python", pct: 80 },
-  { name: "C", pct: 65 },
-  { name: "C++", pct: 65 },
+  { name: "Python", pct: 85 },
+  { name: "C / C++", pct: 75 },
+  { name: "Web Dev", pct: 80 },
+  { name: "Data Analysis", pct: 70 },
 ];
 
 export function Skills() {

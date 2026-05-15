@@ -3,15 +3,16 @@ import { SectionHeading } from "./SectionHeading";
 import { Award } from "lucide-react";
 
 const achievements = [
-  { icon: "🏆", text: "Participated in Smart India Hackathon (SIH)" },
-  { icon: "🔐", text: "Built Aadhaar-based authentication project" },
-  { icon: "💻", text: "Completed multiple Python mini-projects" },
-  { icon: "🎓", text: "Maintained 8.15 CGPA in B.Tech CSE–AI&DS" },
+  { icon: "🌟", text: "Member of Super-50" },
+  { icon: "🥉", text: "Third position in IOT meets Gen AI On Cloud Workshop" },
+  { icon: "👩‍💻", text: "Web-development Co-Lead – GDG on Campus" },
+  { icon: "🌐", text: "Webmaster at IEEE Committee" },
+  { icon: "🤝", text: "Contributor and Ambassador at GSSOC" },
 ];
 
 const certs = [
-  { title: "Python Programming", issuer: "Certification" },
-  { title: "C++ Programming", issuer: "Certification" },
+  { title: "Android app development", issuer: "Saksham Technology" },
+  { title: "Cisco Certifications (C, AI)", issuer: "Cisco Networking Academy" },
 ];
 
 export function Achievements() {

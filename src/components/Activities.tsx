@@ -3,27 +3,17 @@ import { SectionHeading } from "./SectionHeading";
 
 const groups = [
   {
-    title: "Seminars & Webinars",
+    title: "Leadership & Events",
     items: [
-      { icon: "🤖", label: "AI & Data Science Seminar" },
-      { icon: "🔐", label: "Cybersecurity & Data Privacy Webinar" },
-      { icon: "🧮", label: "DSA Workshop" },
+      { icon: "🎤", label: "Hosted and organized college events" },
+      { icon: "🗣️", label: "Confident public speaker and stage performer" },
     ],
   },
   {
-    title: "Workshops",
+    title: "Competitions",
     items: [
-      { icon: "🐍", label: "Python Workshop" },
-      { icon: "🔢", label: "DSA Workshop" },
-    ],
-  },
-  {
-    title: "Extracurriculars",
-    items: [
-      { icon: "💃", label: "Dancing" },
-      { icon: "⚽", label: "Football" },
-      { icon: "🤝", label: "Team Collaboration" },
-      { icon: "🎤", label: "Group Presentations" },
+      { icon: "🥈", label: "2nd Position in Paper Presentation (National Science Day)" },
+      { icon: "💡", label: "Participated in Samadhan (Problem-solving)" },
     ],
   },
 ];

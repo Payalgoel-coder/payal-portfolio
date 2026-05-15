@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Linkedin, MapPin, Loader2, Send } from "lucide-react";
+import { Mail, Linkedin, MapPin, Loader2, Send, Phone } from "lucide-react";
 import { toast } from "sonner";
 import { SectionHeading } from "./SectionHeading";
 
 const info = [
-  { Icon: Mail, label: "Email", value: "payalgoel2708@gmail.com", href: "mailto:payalgoel2708@gmail.com" },
-  { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/your-Payalgoel", href: "https://linkedin.com/in/your-Payalgoel" },
+  { Icon: Mail, label: "Email", value: "payalgoel2005@gmail.com", href: "mailto:payalgoel2005@gmail.com" },
+  { Icon: Phone, label: "Phone", value: "+91 9310119969", href: "tel:+919310119969" },
+  { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/payalgoel", href: "https://linkedin.com/in/payalgoel" },
   { Icon: MapPin, label: "Location", value: "Bhopal, Madhya Pradesh", href: "#" },
 ];
 

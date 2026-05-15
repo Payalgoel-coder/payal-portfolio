@@ -3,7 +3,7 @@ import { SectionHeading } from "./SectionHeading";
 import { GraduationCap, MapPin, Code2, Trophy } from "lucide-react";
 
 const stats = [
-  { Icon: GraduationCap, label: "CGPA", value: "8.15" },
+  { Icon: GraduationCap, label: "CGPA", value: "8.20" },
   { Icon: MapPin, label: "Location", value: "Bhopal, M.P." },
   { Icon: Code2, label: "Coding", value: "1+ Years" },
   { Icon: Trophy, label: "Hackathon", value: "SIH Participant" },
@@ -45,15 +45,13 @@ export function About() {
             className="space-y-5 text-muted-foreground leading-relaxed"
           >
             <p>
-              I'm a dedicated <span className="text-foreground font-semibold">B.Tech CSE student
-              specializing in AI & Data Science</span> at SISTec Gandhi Nagar, Bhopal — driven by
-              curiosity and the joy of solving real-world problems through code and data.
+              I am a motivated and detail-oriented individual with strong programming,
+              problem-solving, and communication skills. As a <span className="text-foreground font-semibold">B.Tech CSE student specializing in AI & Data Science</span>,
+              I am passionate about learning new technologies and building innovative, user-friendly solutions.
             </p>
             <p>
-              From hackathons like <span className="text-foreground font-semibold">SIH</span> to
-              building academic projects around Aadhaar-based authentication, I love turning ideas
-              into working prototypes. Beyond the IDE, I actively participate in workshops,
-              webinars, and certifications to stay sharp.
+              I am seeking an opportunity to enhance my technical knowledge, contribute effectively to
+              organizational growth, and gain valuable industry experience.
             </p>
             <p>
               Currently exploring: <span className="font-mono text-sm text-gradient">Data
