@@ -4,15 +4,6 @@ import { SectionHeading } from "./SectionHeading";
 
 const projects = [
   {
-    tag: "Web Development",
-    title: "Portfolio",
-    desc: "Developed a modern and responsive portfolio project to showcase my skills, projects, certifications, and achievements. Focused on clean UI/UX design, interactivity, and performance to create a professional digital presence.",
-    stack: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    accent: "from-emerald-400 to-teal-300",
-    glow: "rgba(45,212,168,0.45)",
-    live: true,
-  },
-  {
     tag: "Android App",
     title: "India Travel Explorer App",
     desc: "Developed an Android application, India Travel Explore, designed to help users discover popular destinations, culture, food, and tourist attractions across India. Focused on user-friendly UI, smooth navigation, and an engaging travel exploration experience.",
@@ -28,6 +19,15 @@ const projects = [
     stack: ["Power BI", "Data Analysis"],
     accent: "from-orange-400 to-amber-300",
     glow: "rgba(251,146,60,0.45)",
+    live: false,
+  },
+  {
+    tag: "Database & Backend",
+    title: "Pharmaceutical Store Management System",
+    desc: "Built a mini-project focusing on Python and MySQL connectivity to efficiently manage inventory, track sales, and handle records for a pharmaceutical store.",
+    stack: ["Python", "MySQL"],
+    accent: "from-purple-400 to-pink-300",
+    glow: "rgba(192,132,252,0.45)",
     live: false,
   },
 ];
@@ -74,7 +74,9 @@ export function Projects() {
                 </div>
                 <div className="flex gap-3">
                   <a
-                    href="#"
+                    href="https://github.com/Payalgoel-coder"
+                    target="_blank"
+                    rel="noreferrer"
                     className="inline-flex items-center gap-1.5 text-sm font-medium hover:text-gradient transition-colors"
                   >
                     <Github className="w-4 h-4" /> GitHub

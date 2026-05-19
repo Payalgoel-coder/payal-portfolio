@@ -9,8 +9,19 @@ const tech = [
   { name: "JavaScript", icon: "⚡" },
   { name: "MySQL", icon: "🗄️" },
   { name: "Dart", icon: "🎯" },
-  { name: "Power BI", icon: "📊" },
   { name: "Pandas/NumPy", icon: "🧮" },
+];
+
+const platforms = [
+  { name: "Power BI", icon: "📊" },
+  { name: "Excel", icon: "📈" },
+  { name: "Word", icon: "📄" },
+  { name: "PowerPoint", icon: "📉" },
+  { name: "VS Code", icon: "💻" },
+  { name: "Android Studio", icon: "🤖" },
+  { name: "Google Colab", icon: "☁️" },
+  { name: "RStudio", icon: "📐" },
+  { name: "Antigravity", icon: "🚀" },
 ];
 
 const soft = [
@@ -57,6 +68,31 @@ export function Skills() {
                 >
                   <span>{t.icon}</span>
                   {t.name}
+                </motion.span>
+              ))}
+            </motion.div>
+
+            <h3 className="font-mono text-xs uppercase tracking-widest text-muted-foreground mb-4">
+              Tools & Platforms
+            </h3>
+            <motion.div
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true }}
+              variants={{ hidden: {}, show: { transition: { staggerChildren: 0.05 } } }}
+              className="flex flex-wrap gap-3 mb-10"
+            >
+              {platforms.map((p) => (
+                <motion.span
+                  key={p.name}
+                  variants={{
+                    hidden: { scale: 0, opacity: 0 },
+                    show: { scale: 1, opacity: 1, transition: { type: "spring", stiffness: 260, damping: 18 } },
+                  }}
+                  className="glass rounded-full px-4 py-2 text-sm font-medium flex items-center gap-2 hover:glow-violet hover:-translate-y-0.5 transition-transform"
+                >
+                  <span>{p.icon}</span>
+                  {p.name}
                 </motion.span>
               ))}
             </motion.div>

@@ -5,7 +5,7 @@ import { toast } from "sonner";
 import { SectionHeading } from "./SectionHeading";
 
 const info = [
-  { Icon: Mail, label: "Email", value: "payalgoel2005@gmail.com", href: "mailto:payalgoel2005@gmail.com" },
+  { Icon: Mail, label: "Email", value: "payalgoel2006@gmail.com", href: "mailto:payalgoel2006@gmail.com" },
   { Icon: Phone, label: "Phone", value: "+91 9310119969", href: "tel:+919310119969" },
   { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/payalgoel", href: "https://linkedin.com/in/payalgoel" },
   { Icon: MapPin, label: "Location", value: "Bhopal, Madhya Pradesh", href: "#" },

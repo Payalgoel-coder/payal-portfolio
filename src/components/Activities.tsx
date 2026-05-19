@@ -7,6 +7,8 @@ const groups = [
     items: [
       { icon: "🎤", label: "Hosted and organized college events" },
       { icon: "🗣️", label: "Confident public speaker and stage performer" },
+      { icon: "📜", label: "Volunteer Certificate in Sagar Fiesta" },
+      { icon: "🎭", label: "Ramp Walk Participant in Runway Fame (Sagar Fiesta) - Horror & Panch Tatva Themes" },
     ],
   },
   {
@@ -14,6 +16,10 @@ const groups = [
     items: [
       { icon: "🥈", label: "2nd Position in Paper Presentation (National Science Day)" },
       { icon: "💡", label: "Participated in Samadhan (Problem-solving)" },
+      { icon: "🚀", label: "SIH (Smart India Hackathon) Participant" },
+      { icon: "🥉", label: "3rd Position in Prayas Event at Sagar Exuberance (Stall-based Business)" },
+      { icon: "🤖", label: "Attended 2-day Workshop on RAG Models" },
+      { icon: "🥉", label: "3rd Position in IoT meets GenAI On Cloud Workshop" },
     ],
   },
 ];

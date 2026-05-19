@@ -87,8 +87,8 @@ export function Hero() {
           <motion.div variants={item} className="mt-8 flex items-center gap-4">
             {[
               { Icon: Linkedin, href: "https://linkedin.com/in/payalgoel" },
-              { Icon: Github, href: "#" },
-              { Icon: Mail, href: "mailto:payalgoel2005@gmail.com" },
+              { Icon: Github, href: "https://github.com/Payalgoel-coder" },
+              { Icon: Mail, href: "mailto:payalgoel2006@gmail.com" },
             ].map(({ Icon, href }, idx) => (
               <a
                 key={idx}

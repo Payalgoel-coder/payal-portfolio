@@ -4,7 +4,6 @@ import { Award } from "lucide-react";
 
 const achievements = [
   { icon: "🌟", text: "Member of Super-50" },
-  { icon: "🥉", text: "Third position in IOT meets Gen AI On Cloud Workshop" },
   { icon: "👩‍💻", text: "Web-development Co-Lead – GDG on Campus" },
   { icon: "🌐", text: "Webmaster at IEEE Committee" },
   { icon: "🤝", text: "Contributor and Ambassador at GSSOC" },
@@ -13,6 +12,7 @@ const achievements = [
 const certs = [
   { title: "Android app development", issuer: "Saksham Technology" },
   { title: "Cisco Certifications (C, AI)", issuer: "Cisco Networking Academy" },
+  { title: "The Joy of Computing using Python", issuer: "NPTEL Certification (Elite+Silver)" },
 ];
 
 export function Achievements() {
