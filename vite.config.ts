@@ -11,6 +11,6 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
-    base: "/payal-portfolio",
+    base: "/payal-portfolio/",
   },
 });
